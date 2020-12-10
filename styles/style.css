@@ -1,0 +1,38 @@
+@media screen and (min-width: 641px) {
+    body {
+        width: 640px;
+    }
+    .first{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (max-width: 641px) {
+    body {
+        width: 80%;
+    }
+    .first{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+div img {
+    width: 20%;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#thumb-bar{
+    grid-column: 1/6;
+}
+
